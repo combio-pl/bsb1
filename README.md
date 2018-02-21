@@ -23,10 +23,7 @@ Bioinformatyka, rok I
 | **14**	| 14.06.2018 | Kolokwium 2 | |
 
 ### Kontakt
-mgr inż. Agnieszka Rasińska
+mgr inż. Agnieszka Rasińska (agnieszka.rasinska@amu.edu.pl)
 
 Zakład Biologii Obliczeniowej (1.97)
-
-agnieszka.rasinska@amu.edu.pl
-
 
