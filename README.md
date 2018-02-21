@@ -5,8 +5,8 @@ Bioinformatyka, rok I
 
 ## Plan ćwiczeń
 
-| Command | Description |
-| --- | --- |
+| Lab01 | 01.03.2018 | Bazy danych |[lab01.md](./lab01.md)  |
+| --- | --- | --- | --- |
 | git status | List all new or modified files |
 
 | Lab01 | 01.03.2018 | Bazy danych | [lab01.md](./lab01.md) |
