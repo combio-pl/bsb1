@@ -96,7 +96,7 @@ W serwisie UniProt (<a href="http://www.uniprot.org" target="_blank">http://www.
 Wyświetl rekord `ROA1_HUMAN` bazy UniProt w formacie XML.
 
 1. Czym charakteryzuje się format XML?
-2. Podaj jedną zaletę i wadę, jaką według Ciebie ma format XML.
+2. Podaj jedną zaletę i wadę jaką według Ciebie ma format XML.
 
 
 
