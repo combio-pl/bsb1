@@ -5,7 +5,7 @@ Bioinformatyka, rok I
 
 ## Plan ćwiczeń
 
-Lab01	01.03.2018	Bazy danych [lab01.md](./lab01.md)
+Lab01		01.03.2018		Bazy danych [lab01.md](./lab01.md)
 
 Lab02	08.03.2018	Formaty zapisu sekwencji 
 
