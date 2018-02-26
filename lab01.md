@@ -1,13 +1,13 @@
 ## NCBI
 
 ### Zadanie 1
-W przeglądarce internetowej otwórz stronę serwisu NCBI (<a target="_blank" href="https://www.ncbi.nlm.nih.gov">https://www.ncbi.nlm.nih.gov</a>). Z rozwijanej listy dostępnych baz danych (`All databases`) wybierz bazę nukleotydową (`Nucleotide`). W polu wyszukiwania wyszukaj rekord o numerze dostępu `NM_001042492`.
+W przeglądarce internetowej otwórz stronę serwisu [NCBI] (https://www.ncbi.nlm.nih.gov). Z rozwijanej listy dostępnych baz danych `All databases` wybierz bazę nukleotydową `Nucleotide`. W polu wyszukiwania wyszukaj rekord o numerze dostępu `NM_001042492`.
 
 1. Podaj typ cząsteczki rekordu (DNA / mRNA / białko / sekwencja genomowa).
 2. Jak nazywa się białko kodowane przez ten gen?
 3. Z jakiego organizmu pochodzi ten gen?
 
-Wykorzystując panel `Related Information` znajdujący się po prawej stronie przejdź do sekwencji genomowej tego genu (`Gene`).
+Wykorzystując panel `Related Information` znajdujący się po prawej stronie przejdź do sekwencji genomowej tego genu `Gene`.
 
 4. Na którym chromosomie znajduje się ten gen?
 5. Co przedstawia graficzna mapa znajdująca się w panelu `Genomic regions`, `transcripts`, and `products`?
@@ -17,27 +17,27 @@ Wykorzystując panel `Related Information` przejdź do bazy `OMIM`.
 6. Wymień trzy jednostki chorobowe powiązane z tym genem.
 
 ### Zadanie 2
-W serwisie NCBI, w bazie `Nucleotide` wyszukaj sekwencję kontaktyny (ang. *contactin*). Następnie przy pomocy filtrów znajdujących się po lewej stronie, ogranicz wyniki wyszukiwania do cząsteczek mRNA, z bazy danych `RefSeq`, o długości między 4000 a 5000 par zasad, pochodzących od komara (ang. *mosquito*).
+W bazie `Nucleotide` NCBI wyszukaj sekwencję kontaktyny (ang. *contactin*). Następnie przy pomocy filtrów znajdujących się po lewej stronie, ogranicz wyniki wyszukiwania do cząsteczek mRNA, z bazy danych `RefSeq`, o długości między 4000 a 5000 par zasad, pochodzących od komara (ang. *mosquito*).
 
 1. Ile sekwencji zostało znalezionych?
-2. Podaj numery dostępu (`Accession number`) wszystkich znalezionych rekordów.
+2. Podaj numery dostępu `Accession number` wszystkich znalezionych rekordów.
 3. Z jakiego gatunku komara pochodzą sekwencje?
 
 ### Zadanie 3
-####Proste wyszukiwanie
-Znajdź sekwencję genu BRCA2 wpisując w polu wyszukiwania bazy `Nucleotide` NCBI frazę `Homo sapiens BRCA2`.
+**Proste wyszukiwanie**
+Znajdź sekwencję genu BRCA2 wpisując w polu wyszukiwania bazy `Nucleotide` NCBI frazę **Homo sapiens BRCA2**.
 
 1. Ile rekordów sekwencji znaleziono?
 
-Przejdź do rekordu: `Mus musculus BRCA2 (Brca2) mRNA, complete cds)` o numerze dostępu `U65594.1`.
+Przejdź do rekordu: `Mus musculus BRCA2 (Brca2) mRNA, complete cds` o numerze dostępu `U65594.1`.
 
 2. Z jakiego organizmu pochodzi ten rekord?
 3. Dlaczego rekord znalazł się w wyszukiwaniu?
 
 Wróć do strony z wyszukiwaniem. Aby dowiedzieć się jak Twoje zapytanie zostało zinterpretowane spójrz na pole `Search Details`.
 
-####Zaawansowane wyszukiwanie
-Skorzystaj z zaawansowanego wyszukiwania (`Advanced`) i skonstruuj tak zapytanie aby znaleźć wszystkie rekordy dotyczące genu BRCA2, pochodzące z człowieka (*Homo sapiens*). 
+**Zaawansowane wyszukiwanie**
+Skorzystaj z zaawansowanego wyszukiwania `Advanced` i skonstruuj tak zapytanie aby znaleźć wszystkie rekordy dotyczące genu BRCA2, pochodzące z człowieka (*Homo sapiens*). 
 
 4. Jak brzmiało Twoje zapytanie (`Search details`)?
 5. Ile sekwencji zostało znalezionych?
@@ -53,10 +53,11 @@ Korzystając z zaawansowanego wyszukiwania znajdź w bazie `Gene` wszystkie geny
 4. Podaj lokalizację genu (chromosom, pozycja początku i końca)?
 5. Jakie geny znajdują się w sądziedztwie (*upstream*, *downstream*)?
 
+
 ## EMBL/EBI - ENA
 
 ### Zadanie 5
-W bazie ENA (<a target="_blank" href="https://www.ebi.ac.uk/ena">https://www.ebi.ac.uk/ena</a>) wyszukaj rekord sekwencji o numerze dostępu `U43746.1`. Podaj nazwę rekordu i typ cząsteczki.
+W bazie [ENA] (https://www.ebi.ac.uk/ena) wyszukaj rekord sekwencji o numerze dostępu `U43746.1`. Podaj nazwę rekordu i typ cząsteczki.
 
 ### Zadanie 6
 Korzystając z zaawansowanego wyszukiwania znajdź w bazie ENA wszystkie sekwencje mRNA (`Molecule type`), nie dłuższe niż 600 pz (`Base count`), pochodzące od wampira zwyczajnego (`Taxon name` = vampire bat).
@@ -66,10 +67,11 @@ Korzystając z zaawansowanego wyszukiwania znajdź w bazie ENA wszystkie sekwenc
 3. Podaj nazwę naukową organizmu.
 4. Podaj długość tej sekwencji.
 
+
 ## UniProt
 
 ### Zadanie 7
-W serwisie UniProt (<a target="_blank" href="http://www.uniprot.org">http://www.uniprot.org</a>) użyj zaawansowanego wyszukiwania i znajdź białka pochodzące z dinozaura *Tyrannosaurus rex*. 
+W serwisie [UniProt] (http://www.uniprot.org) użyj zaawansowanego wyszukiwania i znajdź białka pochodzące z dinozaura *Tyrannosaurus rex*. 
 
 1. Ile rekordów znaleziono?
 2. Jakiego białka dotyczą te rekordy?
@@ -96,14 +98,15 @@ Białko rycyna (ang. *ricin*) pochodzące z rącznika pospolitego (*Ricinus comm
 ### Zadanie 10
 Ile rekordów białek znajduje się w bazie UniProt, które związane są z wirusem grypy *H5N1*, ale nie zawierają słowa ptasia (ang. *avian*)? Ile z tych rekordów zostało poddanych dokładnej weryfikacji przez personel UniProt (tj. należy do bazy UniProt/SwissProt), a ile podlega komputerowym przewidywaniom (tj. należy do bazy UniProt/trEMBL)?
 
+
 ## BioMart
 
 ### Zadanie 11
 W serwisie YouTube obejrzyj wprowadzenie do aplikacji BioMart (<a target="_blank" href="https://youtu.be/QvGT2G0-hYA">https://youtu.be/QvGT2G0-hYA</a>). Następnie, korzystając z aplikacji BioMart bazy Ensembl podaj liczbę sekwencji kodujących (CDS) wszystkich genów znajdujących się na chromosomie 22 człowieka. 
 
 > Wskazówka: 
-1. Wejdź na stronę Ensembl (<a target="_blank" href="https://www.ensembl.org/index.html">https://www.ensembl.org/index.html</a>) i z menu wybierz BioMart.
-2. Użyj następujących opcji: `Database` Ensembl Genes, `DataSet` Human genes, `Filters` Region: chromosome 22
-3. Attributes: `Data type` Sequences, `Sequences` Coding sequences, `Header` atrybuty: Gene stable ID, Gene name i Transcript stable ID.   
-4. Przycisk `Results`
+>1. Wejdź na stronę [Ensembl] (https://www.ensembl.org/index.html) i z menu wybierz BioMart.
+>2. Użyj następujących opcji: `Database` Ensembl Genes, `DataSet` Human genes, `Filters` Region: chromosome 22
+>3. Attributes: `Data type` Sequences, `Sequences` Coding sequences, `Header` Gene stable ID, Gene name, Transcript stable ID.   
+>4. Przycisk `Results`
 
