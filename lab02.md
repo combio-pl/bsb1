@@ -1,7 +1,7 @@
 ## FASTA
 
-### Zad. 1
-Poniżej znajduje się rekord sekwencji w formacie FASTA.
+### Zadanie 1
+Poniżej znajduje się sekwencja w formacie FASTA.
 
 ```
 >NM_000207.2 Homo sapiens insulin (INS)
@@ -19,7 +19,7 @@ CCGCCTCCTGCACCGAGAGAGATGGAATAAAGCCCTTGAACCAGCAAAA
 3. Podaj opis tej sekwencji.
 
 
-### Zad. 2
+### Zadanie 2
 Jakiej cząsteczki dotyczy poniższa sekwencja (DNA / RNA / białko)?
 
 ```
@@ -31,8 +31,8 @@ GPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
 
 ## GenBank
 
-### Zad. 3
-W przeglądarce internetowej otwórz stronę serwisu NCBI (<a target="_blank" href="https://www.ncbi.nlm.nih.gov">https://www.ncbi.nlm.nih.gov</a>). Z rozwijanej listy dostępnych baz danych (`All databases`) wybierz `Nucleotide`. W polu wyszukiwania wyszukaj rekord o numerze dostępu `NM_000207`.
+### Zadanie 3
+W przeglądarce internetowej otwórz stronę serwisu [NCBI](https://www.ncbi.nlm.nih.gov). Z rozwijanej listy dostępnych baz danych `All databases` wybierz `Nucleotide`. W polu wyszukiwania wyszukaj rekord o numerze dostępu `NM_000207`.
 
 1. Z jakiego organizmu pochodzi sekwencja zawarta w tym rekordzie?
 2. Jaki jest typ cząsteczki tego rekordu (białko / sekwencja genomowa / transkrypt)?
@@ -46,23 +46,23 @@ W przeglądarce internetowej otwórz stronę serwisu NCBI (<a target="_blank" hr
 10. Jaka jest długość sekwencji CDS i białka?
 
 
-### Zad. 4
+### Zadanie 4
 W serwisie NCBI w bazie `Protein` wyszukaj rekord o numerze dostępu `NP_000198`.
 
-> Wskazówka: wyjaśnienie pól rekordów formatu GenBank znajduje się na stronie: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html">Sample GenBank Record</a>.
+> Wskazówka: wyjaśnienie pól rekordów formatu GenBank <a target="_blank" href="http://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html">Sample GenBank Record</a>.
 
 1. Podaj datę ostatniej modyfikacji tego rekordu.
 2. Ile razy ten rekord był uaktualniany?
-3. Z której bazy pochodzi rekord (GenBank czy RefSeq)? Uzasadnij swoją odpowiedź.
-4. Do jakiego działu taksonomicznego (`GenBank Division`) zaklasyfikowany został ten rekord?
+3. Z której bazy pochodzi rekord (`GenBank` czy `RefSeq`)? Uzasadnij swoją odpowiedź.
+4. Do jakiego działu taksonomicznego `GenBank Division` zaklasyfikowany został ten rekord?
 
-Wyświetl rekord w formacie FASTA.
+Wyświetl rekord w formacie FASTA i umieść go w protokole.
 
 
 ## EMBL/ENA
 
-### Zad. 5 
-W bazie nukleotydowej NCBI wyszukaj rekord o numerze dostępu `U54469.1`. W nowej karcie przeglądarki internetowej otwórz bazę ENA/EMBL (<a target="_blank" href="http://www.ebi.ac.uk/ena">http://www.ebi.ac.uk/ena</a>) i w polu wyszukiwania odszukaj ten sam rekord. Wyświetl rekord w wersji teksowej (`TEXT`).
+### Zadanie 5 
+W bazie nukleotydowej NCBI wyszukaj rekord o numerze dostępu `U54469.1`. W nowej karcie przeglądarki internetowej otwórz bazę [ENA/EMBL] (http://www.ebi.ac.uk/ena) i w polu wyszukiwania odszukaj ten sam rekord. Wyświetl rekord w wersji tekstowej `TEXT`.
 
 <img src="./images/genbank_embl.jpg" alt="genbank_embl"/>
 
@@ -73,26 +73,26 @@ W bazie nukleotydowej NCBI wyszukaj rekord o numerze dostępu `U54469.1`. W nowe
    * pozycji na chromosomie?
 3. Ile wariantów transkrypcyjnych (mRNA) może powstawać z tej sekwencji DNA?
 4. Z ilu egzonów złożone są te warianty mRNA?
-> Możesz wrócić do trybu graficznego rekordu bazy ENA.
+> Wróć do trybu graficznego rekordu bazy ENA.
 5. Dlaczego trzem polom mRNA odpowiadają tylko dwa pola CDS?
 6. Wymień dwa przykłady informacji, które znajdują się w jednym rekordzie, a których nie ma w drugim.
 7. Wyświetl oba rekordy w formacie `FASTA`. Czy liczba znaków w linii sekwencji jest taka sama?
 
 ## UniProt
 
-### Zad. 6
-W serwisie UniProt (<a href="http://www.uniprot.org" target="_blank">http://www.uniprot.org</a>) wyszukaj rekord o numerze dostępu `ROA1_HUMAN`. Wyświetl rekord w formacie tekstowej (przycisk `Format`).
+### Zadanie 6
+W serwisie [UniProt] (http://www.uniprot.org") wyszukaj rekord o numerze dostępu `ROA1_HUMAN`. Wyświetl rekord w formacie tekstowej (`Format`).
 
 1. W jakim formacie zapisany jest ten rekord (GenBank / EMBL)?
 2. Jaki jest to typ cząsteczki (białko / DNA / RNA)?
 3. Z jakiej bazy danych serwisu UniProt pochodzi ten rekord?
 4. Podaj długość sekwencji zawartej w tym rekordzie?
-5. Wyświetl rekord w formacie FASTA i umieść go w treści protokołu.
+5. Wyświetl rekord w formacie FASTA i umieść go w protokole.
 
 
 ## XML
 
-### Zad. 7
+### Zadanie 7
 Wyświetl rekord `ROA1_HUMAN` bazy UniProt w formacie XML.
 
 1. Czym charakteryzuje się format XML?
@@ -102,7 +102,7 @@ Wyświetl rekord `ROA1_HUMAN` bazy UniProt w formacie XML.
 
 ## Konwersja formatów
 
-### Zad. 8
-Użyj programu <a target="_blank" href="https://www.ebi.ac.uk/Tools/sfc/emboss_seqret/">EMBOSS SeqRet</a> i zamień sekwencję z zad. 1 na format GenBank. Umieść wynik w sprawozdaniu.
+### Zadanie 8
+Użyj programu <a target="_blank" href="https://www.ebi.ac.uk/Tools/sfc/emboss_seqret/">EMBOSS SeqRet</a> i zamień sekwencję z zadania 1 na format GenBank. Umieść wynik w protokole.
 
 

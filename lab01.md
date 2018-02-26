@@ -59,7 +59,7 @@ Korzystając z zaawansowanego wyszukiwania znajdź w bazie `Gene` wszystkie geny
 ## EMBL/EBI - ENA
 
 ### Zadanie 5
-W bazie [ENA] (https://www.ebi.ac.uk/ena) wyszukaj rekord sekwencji o numerze dostępu `U43746.1`. Podaj nazwę rekordu i typ cząsteczki.
+W bazie [ENA](https://www.ebi.ac.uk/ena) wyszukaj rekord sekwencji o numerze dostępu `U43746.1`. Podaj nazwę rekordu i typ cząsteczki.
 
 ### Zadanie 6
 Korzystając z zaawansowanego wyszukiwania znajdź w bazie ENA wszystkie sekwencje mRNA (`Molecule type`), nie dłuższe niż 600 pz (`Base count`), pochodzące od wampira zwyczajnego (`Taxon name` = vampire bat).
@@ -73,7 +73,7 @@ Korzystając z zaawansowanego wyszukiwania znajdź w bazie ENA wszystkie sekwenc
 ## UniProt
 
 ### Zadanie 7
-W serwisie [UniProt] (http://www.uniprot.org) użyj zaawansowanego wyszukiwania i znajdź białka pochodzące z dinozaura *Tyrannosaurus rex*. 
+W serwisie [UniProt](http://www.uniprot.org) użyj zaawansowanego wyszukiwania i znajdź białka pochodzące z dinozaura *Tyrannosaurus rex*. 
 
 1. Ile rekordów znaleziono?
 2. Jakiego białka dotyczą te rekordy?
@@ -107,7 +107,7 @@ Ile rekordów białek znajduje się w bazie UniProt, które związane są z wiru
 W serwisie YouTube obejrzyj wprowadzenie do aplikacji BioMart (<a target="_blank" href="https://youtu.be/QvGT2G0-hYA">https://youtu.be/QvGT2G0-hYA</a>). Następnie, korzystając z aplikacji BioMart bazy Ensembl podaj liczbę sekwencji kodujących (CDS) wszystkich genów znajdujących się na chromosomie 22 człowieka. 
 
 > Wskazówka: 
->1. Wejdź na stronę [Ensembl] (https://www.ensembl.org/index.html) i z menu wybierz BioMart.
+>1. Wejdź na stronę [Ensembl](https://www.ensembl.org/index.html) i z menu wybierz BioMart.
 >2. Użyj następujących opcji: `Database` Ensembl Genes, `DataSet` Human genes, `Filters` Region: chromosome 22
 >3. Attributes: `Data type` Sequences, `Sequences` Coding sequences, `Header` Gene stable ID, Gene name, Transcript stable ID.   
 >4. Przycisk `Results`
