@@ -1,7 +1,7 @@
 ## NCBI
 
 ### Zadanie 1
-W przeglądarce internetowej otwórz stronę serwisu [NCBI] (https://www.ncbi.nlm.nih.gov/). Z rozwijanej listy dostępnych baz danych `All databases` wybierz bazę nukleotydową `Nucleotide`. W polu wyszukiwania wyszukaj rekord o numerze dostępu `NM_001042492`.
+W przeglądarce internetowej otwórz stronę serwisu [NCBI](https://www.ncbi.nlm.nih.gov/). Z rozwijanej listy dostępnych baz danych `All databases` wybierz bazę nukleotydową `Nucleotide`. W polu wyszukiwania wyszukaj rekord o numerze dostępu `NM_001042492`.
 
 1. Podaj typ cząsteczki rekordu (DNA / mRNA / białko / sekwencja genomowa).
 2. Jak nazywa się białko kodowane przez ten gen?
@@ -25,6 +25,7 @@ W bazie `Nucleotide` NCBI wyszukaj sekwencję kontaktyny (ang. *contactin*). Nas
 
 ### Zadanie 3
 **Proste wyszukiwanie**
+
 Znajdź sekwencję genu BRCA2 wpisując w polu wyszukiwania bazy `Nucleotide` NCBI frazę **Homo sapiens BRCA2**.
 
 1. Ile rekordów sekwencji znaleziono?
@@ -37,6 +38,7 @@ Przejdź do rekordu: `Mus musculus BRCA2 (Brca2) mRNA, complete cds` o numerze d
 Wróć do strony z wyszukiwaniem. Aby dowiedzieć się jak Twoje zapytanie zostało zinterpretowane spójrz na pole `Search Details`.
 
 **Zaawansowane wyszukiwanie**
+
 Skorzystaj z zaawansowanego wyszukiwania `Advanced` i skonstruuj tak zapytanie aby znaleźć wszystkie rekordy dotyczące genu BRCA2, pochodzące z człowieka (*Homo sapiens*). 
 
 4. Jak brzmiało Twoje zapytanie (`Search details`)?
