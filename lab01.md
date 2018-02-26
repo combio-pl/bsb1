@@ -1,7 +1,7 @@
 ## NCBI
 
 ### Zadanie 1
-W przeglądarce internetowej otwórz stronę serwisu [NCBI] (https://www.ncbi.nlm.nih.gov). Z rozwijanej listy dostępnych baz danych `All databases` wybierz bazę nukleotydową `Nucleotide`. W polu wyszukiwania wyszukaj rekord o numerze dostępu `NM_001042492`.
+W przeglądarce internetowej otwórz stronę serwisu [NCBI] (https://www.ncbi.nlm.nih.gov/). Z rozwijanej listy dostępnych baz danych `All databases` wybierz bazę nukleotydową `Nucleotide`. W polu wyszukiwania wyszukaj rekord o numerze dostępu `NM_001042492`.
 
 1. Podaj typ cząsteczki rekordu (DNA / mRNA / białko / sekwencja genomowa).
 2. Jak nazywa się białko kodowane przez ten gen?
