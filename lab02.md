@@ -62,7 +62,7 @@ Wyświetl rekord w formacie FASTA i umieść go w protokole.
 ## EMBL/ENA
 
 ### Zadanie 5 
-W bazie nukleotydowej NCBI wyszukaj rekord o numerze dostępu `U54469.1`. W nowej karcie przeglądarki internetowej otwórz bazę [ENA/EMBL] (http://www.ebi.ac.uk/ena) i w polu wyszukiwania odszukaj ten sam rekord. Wyświetl rekord w wersji tekstowej `TEXT`.
+W bazie nukleotydowej NCBI wyszukaj rekord o numerze dostępu `U54469.1`. W nowej karcie przeglądarki internetowej otwórz bazę [ENA/EMBL](http://www.ebi.ac.uk/ena) i w polu wyszukiwania odszukaj ten sam rekord. Wyświetl rekord w wersji tekstowej `TEXT`.
 
 <img src="./images/genbank_embl.jpg" alt="genbank_embl"/>
 
@@ -81,7 +81,7 @@ W bazie nukleotydowej NCBI wyszukaj rekord o numerze dostępu `U54469.1`. W nowe
 ## UniProt
 
 ### Zadanie 6
-W serwisie [UniProt] (http://www.uniprot.org") wyszukaj rekord o numerze dostępu `ROA1_HUMAN`. Wyświetl rekord w formacie tekstowej (`Format`).
+W serwisie [UniProt](http://www.uniprot.org") wyszukaj rekord o numerze dostępu `ROA1_HUMAN`. Wyświetl rekord w formacie tekstowej (`Format`).
 
 1. W jakim formacie zapisany jest ten rekord (GenBank / EMBL)?
 2. Jaki jest to typ cząsteczki (białko / DNA / RNA)?
