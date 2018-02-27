@@ -96,7 +96,7 @@ Białko rycyna (ang. *ricin*) pochodzące z rącznika pospolitego (*Ricinus comm
 3. Jaka cząsteczka RNA zostaje przerwana przez działanie rycyny?
 4. Jaka jest komórkowa lokalizacja tego białka (np. jądro, cytoplazma, mitochondrium)?
 5. Podaj numer dostępu tego rekordu w bazie `RefSeq`.
-*6. Jaka mutacja w sekwencji aminokwasowej niweluje toksyczne działanie rycyny?
+6. * Jaka mutacja w sekwencji aminokwasowej niweluje toksyczne działanie rycyny?
 
 ### Zadanie 10
 Ile rekordów białek znajduje się w bazie UniProt, które związane są z wirusem grypy *H5N1*, ale nie zawierają słowa ptasia (ang. *avian*)? Ile z tych rekordów zostało poddanych dokładnej weryfikacji przez personel UniProt (tj. należy do bazy UniProt/SwissProt), a ile podlega komputerowym przewidywaniom (tj. należy do bazy UniProt/trEMBL)?
