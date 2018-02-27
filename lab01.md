@@ -14,7 +14,8 @@ Wykorzystując panel `Related Information` znajdujący się po prawej stronie pr
 
 Wykorzystując panel `Related Information` przejdź do bazy `OMIM`.
 
-6. Wymień trzy jednostki chorobowe powiązane z tym genem.
+6. Scharakteryzuj jednym zdaniem bazę OMIM.
+7. Wymień trzy jednostki chorobowe powiązane z tym genem.
 
 ### Zadanie 2
 W bazie `Nucleotide` NCBI wyszukaj sekwencję kontaktyny (ang. *contactin*). Następnie przy pomocy filtrów znajdujących się po lewej stronie, ogranicz wyniki wyszukiwania do cząsteczek mRNA, z bazy danych `RefSeq`, o długości między 4000 a 5000 par zasad, pochodzących od komara (ang. *mosquito*).
@@ -95,7 +96,7 @@ Białko rycyna (ang. *ricin*) pochodzące z rącznika pospolitego (*Ricinus comm
 3. Jaka cząsteczka RNA zostaje przerwana przez działanie rycyny?
 4. Jaka jest komórkowa lokalizacja tego białka (np. jądro, cytoplazma, mitochondrium)?
 5. Podaj numer dostępu tego rekordu w bazie `RefSeq`.
-6. *Jaka mutacja w sekwencji aminokwasowej niweluje toksyczne działanie rycyny?
+*6. Jaka mutacja w sekwencji aminokwasowej niweluje toksyczne działanie rycyny?
 
 ### Zadanie 10
 Ile rekordów białek znajduje się w bazie UniProt, które związane są z wirusem grypy *H5N1*, ale nie zawierają słowa ptasia (ang. *avian*)? Ile z tych rekordów zostało poddanych dokładnej weryfikacji przez personel UniProt (tj. należy do bazy UniProt/SwissProt), a ile podlega komputerowym przewidywaniom (tj. należy do bazy UniProt/trEMBL)?
