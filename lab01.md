@@ -10,7 +10,7 @@ W przeglądarce internetowej otwórz stronę serwisu [NCBI](https://www.ncbi.nlm
 Wykorzystując panel `Related Information` znajdujący się po prawej stronie przejdź do sekwencji genomowej tego genu `Gene`.
 
 4. Na którym chromosomie znajduje się ten gen?
-5. Co przedstawia graficzna mapa znajdująca się w panelu `Genomic regions`, `transcripts`, and `products`?
+5. Co przedstawia graficzna mapa znajdująca się w panelu `Genomic regions, transcripts, and products`?
 
 Wykorzystując panel `Related Information` przejdź do bazy `OMIM`.
 
