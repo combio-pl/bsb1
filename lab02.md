@@ -28,7 +28,8 @@ MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGG
 GPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
 ```
 
-##GenBank
+## GenBank
+
 > Wskazówka: wyjaśnienie pól rekordów formatu GenBank znajduje się na stronie: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html">Sample GenBank Record</a>
 
 ### Zadanie 3
@@ -56,7 +57,7 @@ W bazie `Protein` NCBI wyszukaj rekord o numerze dostępu `NP_000198`.
 5. Wyświetl rekord w formacie FASTA i umieść go w protokole.
 
 
-##EMBL/ENA
+## EMBL/ENA
 
 ### Zadanie 5 
 W bazie nukleotydowej NCBI wyszukaj rekord o numerze dostępu `U54469.1`. W nowej karcie przeglądarki internetowej otwórz bazę ENA/EMBL i wyszukaj ten sam rekord. Wyświetl rekord z bazy EMBL/ENA w wersji tekstowej `TEXT`.
@@ -74,10 +75,10 @@ W bazie nukleotydowej NCBI wyszukaj rekord o numerze dostępu `U54469.1`. W nowe
 > Wskazówka: Wróć do trybu graficznego rekordu bazy ENA.
 6. Wyświetl oba rekordy (z bazy NCBI i EMBL/ENA) w formacie `FASTA`. Czy liczba znaków w linii sekwencji jest taka sama?
 
-##UniProt
+## UniProt
 
 ### Zadanie 6
-W serwisie UniProt wyszukaj rekord o numerze dostępu `P09651`. Wyświetl rekord w formacie tekstowym (`Format``TEXT`).
+W serwisie UniProt wyszukaj rekord o numerze dostępu `P09651`. Wyświetl rekord w formacie tekstowym (`Format TEXT`).
 
 1. W jakim formacie zapisany jest ten rekord (GenBank / EMBL)?
 2. Jaki jest to typ cząsteczki (białko / DNA / RNA)?
@@ -85,7 +86,7 @@ W serwisie UniProt wyszukaj rekord o numerze dostępu `P09651`. Wyświetl rekord
 4. Podaj długość sekwencji zawartej w tym rekordzie?
 5. Wyświetl rekord w formacie FASTA i umieść go w protokole.
 
-##XML
+## XML
 
 ### Zadanie 9
 Wyświetl rekord `ROA1_HUMAN` bazy UniProt (numer dostępu:`P09651`) w formacie XML.
@@ -107,7 +108,9 @@ Korzystając z aplikacji BioMart utwórz listę sekwencji białkowych których g
 Poniżej znajduje się 29 numerów dostępu białek (*H.sapiens*) z bazy RefSeq. Korzystając z aplikacji BioMart utwórz listę genów kodujących te białka uwzględniając w nagłówku identyfikator genu w bazie Ensembl oraz symbol HGNC genu.
 
 ```
-NP_001218 NP_203125 NP_203124 NP_203126 NP_001007233 NP_150636 NP_150635 NP_001214 NP_150637 NP_150634 NP_150649 NP_001216 NP_116787 NP_001217 NP_127463 NP_001220 NP_004338 NP_004337 NP_116786 NP_036246 NP_116756 NP_116759 NP_001221 NP_203519 NP_001073594 NP_001219 NP_001073593 NP_203520 NP_203522
+NP_001218 NP_203125 NP_203124 NP_203126 NP_001007233 NP_150636 NP_150635 NP_001214 NP_150637 NP_150634 
+NP_150649 NP_001216 NP_116787 NP_001217 NP_127463 NP_001220 NP_004338 NP_004337 NP_116786 NP_036246 
+NP_116756 NP_116759 NP_001221 NP_203519 NP_001073594 NP_001219 NP_001073593 NP_203520 NP_203522
 ```
 1. Ile genów koduje 29 białek z listy?
 2. Utworzoną listę genów zapisz w formacie CSV do pliku o nazwie biomart11_nazwisko.txt (plik jako załącznik do protokołu).
