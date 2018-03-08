@@ -7,8 +7,8 @@ Bioinformatyka, rok I
 
 | Lab | Data | Opis | Zadania |
 | :---: | --- | --- | :---: |
-| **01** | 01.03.2018 | Bazy danych sekwencji | lab01 |
-| **02**	| 08.03.2018 | Formaty zapisu sekwencji  | lab02  |
+| **01** | 01.03.2018 | Bazy danych sekwencji | [lab01](./lab01.md) |
+| **02**	| 08.03.2018 | Formaty zapisu sekwencji  | [lab02](./lab02.md)  |
 | **03**	| 15.03.2018 | Przyrównanie sekwencji - Dotplot, Needle, Water | lab03 |
 | **04**	| 22.03.2018 | Wyszukiwanie sekwencji podobnych - BLAST | lab04 |
 | **05**	| 29.03.2018 | Dopasowanie wielu sekwencji (MSA) | lab05 |
