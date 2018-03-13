@@ -28,7 +28,7 @@ CCATCGCGTCCGCCATCTCCAGCAGCCGCACGCGGCGCATCTCGGGCAGCGTTGGGTCCT
 ```
 
 1. Czy rekord dotyczy sekwencji DNA / RNA / białka?
-2. Zidentyfikuj sekwencję korzystając z programu `BLAST`. 
+2. Zidentyfikuj sekwencję korzystając z programu [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi). 
 3. Z jakiego organizmu pochodzi sekwencja?
 4. Sekwencja została umieszczona w książce Michaela Crichtona "Jurassic Park". Korzystając z programu `dotmatcher` sprawdź jakie modyfikacje Michael Crichton wprowadził do sekwencji źródłowej. 
 
@@ -86,11 +86,11 @@ TCGGAGGCGGCATGGACCCAGCGTAGATCATGCTGGATTTGTACTGCCGGAATTC
 
 1. Czy rekord dotyczy sekwencji DNA / RNA / białka?
 2. Zidentyfikuj powyższą sekwencję korzystając z programu `BLAST`.
-3. W sekwencji Mark ukrył wiadomość. Jakiego programu `BLAST należy użyć by odczytać wiadomość?
-> Wskazówka: należy porównać sekwencję Marka z białkową bazą.
+3. W sekwencji Mark ukrył wiadomość. Jakiego programu `BLAST` należy użyć by odczytać wiadomość?
+> Wskazówka: należy porównać sekwencję Marka z białkową bazą
 4. Z jakiego organizmu pochodzi sekwencja?
 5. Jak brzmi ukryta wiadomość?
-> Wskazówka: wiadomości szukaj w dopasowaniu sekwencji. 
+> Wskazówka: wiadomości szukaj w dopasowaniu sekwencji 
 
 
 ### Zadanie 4
@@ -119,7 +119,7 @@ A
 
 >Wskazówka: ogranicz przeszukiwanie do sekwencji ssaków (*mammals*) oraz bazy UniProtKB/Swiss-Prot(swissprot).
 
-1. Podaj numer dostępu (`Accession number`) sekwencji, która otrzymała najwyższą wartośc *score*.
+1. Podaj numer dostępu (`Accession number`) sekwencji, która otrzymała najwyższą wartość *score*.
 2. Z jakiego organizmu pochodzi sekwencji z pkt 1?
 3. Do jakiego innego ssaka należy sekwencja najbardziej podobna do sekwencji DCC człowieka?
 4. Ile wynosi procent identyczności i podobieństwa między tymi dwoma białkami?
@@ -131,11 +131,11 @@ A
 > Wskazówka: kolumna `Query cover` w części `Description`
 10. Co oznaczają fragmenty sekwencji w dopasowaniach, które zostały wyróżnione małą czcionką w kolorze szarym?
 11. Co oznaczają pola `Max score`, `Total score` znajdujące się w części `Description` w tabeli zawierającej listę znalezionych białek?
->Wskazówka: zwróć uwagę na dopasowanie sekwencji zapytania z białkiem `Q2VWP9.1`.
+>Wskazówka: zwróć uwagę na dopasowanie sekwencji zapytania z białkiem `Q2VWP9.1`
 
 
 ### Zadanie 6
-Poniżej znajduje się fragment sekwencji pochodzącej z nieznanego mikroorganizmu. Wykorzystując dotychczas poznane narzędzia odpowiedz na pytanie - Jaki trodzaj (podklasa) enzymu może być kodowany przez tę sekwencję?
+Poniżej znajduje się fragment rekordu dotyczącego sekwencji pochodzącej z nieznanego mikroorganizmu. Wykorzystując dotychczas poznane narzędzia odpowiedz na pytanie - Jaki rodzaj (podklasa) enzymu może być kodowany przez tę sekwencję?
 
 ```
 LOCUS       CLONE12    609 bp DNA             UPDATED   06/14/98
