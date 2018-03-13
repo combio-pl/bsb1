@@ -110,6 +110,33 @@ EKLRGWLKSNVSDAVAQSTRIIYGGSVTGATCKELASQPDVDGFLVGGASLKPEFVDIINAKQ
 
 
 ### Zadanie 5
+Poniżej znajduje się nieznana sekwencja białkowa. Zidentyfikuj ją korzystając z programu `BLAST` ograniczając wyszukiwanie do bazy białek referencyjnych (`Reference proteins (refseq_proteins)`).
+
+```
+>sequence
+MSYSYEACFW DPNDNGVNIL LGHISQGIRS CDSMILFFKQ RSELEKDYAR RLGAITGKLD
+KDIGTNMDYG KLNETFNVVL SVEKARAQSH SKQSEILFRQ IYTDTKAFAA NLQARYTTLS
+GKIERLRMDK FNKKKGCEVL QKKLQDAQIR FRDLQLNENN MIGAKRVEHN KRELLKWESN
+SQEYKVQLDV LKQEYKASQK FWIHEWAQLS CELQEMENAR ISFLQSKLQQ FATSSMETYI
+LEQTKMDMLT NHLNSFTAAD EISTFSKENG TGRLKHKTSK GDMNSSANWA QMSSISTTSK
+KTESYMDNIR KLSSQLKETE NKRKLASIDK YEKPLPSPEV TMATQFRNST PVIRNETKVV
+ANPTLSLRSS PVQLQSNVDD SVLRQKPDKP RPIVGEEQLK PDEDSKNPDE KGLMVHKRNQ
+SLSSPSESSS SNPTDFSHIK KRQSMESMTT SVSSMANSID DSQRFAKSWN SSNRKRKSMS
+HLQVPSSASS RSDDGGRTPN SAHNLNEDDY NTRRDTSTST ILFKPPVAVR GTSRGHTHRQ
+SMIMQDSSNP IEDALYEMER IQSSSKPGTK TGNIMDERGV VRDRGITVTL PIVTSEGFPV
+IEYAKAMYPL IGNEAPGLAN FHKGDYLLIT EIVNKDWYKG EVYDNDRIDR NHRIGLIPYN
+FIQLLHQGL
+```
+
+1. Jakie to białko?
+2. Podaj numer dostępu (`Accession number`).
+3. Z jakiego organizmu pochodzi?
+4. Jaka jest długość tego dopasowania?
+5. Czy białka zachowane są na całej długości?
+6. Przejdź do raportu taksonomicznego (`Taxonomy reports`). Ile białek pochodzi od organizmów z rodziny *Saccharomycetaceae*? Czy wśród wyników znajdują się białka z gromady innej niż workowce (*Ascomycota*)? 
+
+
+### Zadanie 5
 Poniżej znajduje się sekwencja białka DCC człowieka (*Deleted in Colorectal Carcinoma*). Wyszukaj białka pochodzące od innych ssaków, które wykazują największe podobieństwo do białka DCC. 
 
 ```
