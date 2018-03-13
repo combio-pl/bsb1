@@ -118,6 +118,7 @@ W artykule *Phages and the evolution of bacterial pathogens: from genomic rearra
 1. Poniższa rycina przedstawia wyniki dwóch analiz dotplot dwóch szczepów *Escherichia Coli* (lewy panel) oraz *Escherichia coli* i *Shigella flexneri* (prawy panel). Zinterpretuj zaznaczone fragmenty wykresów (1-6).
 
 <img src="./images/rycina1.jpg" alt="Dotplot_ryc1"/>
+
 2. Poniższa rycina przedstawia przyrównanie genomów dwóch szczepów *Streptococcus pyogenes* należących do różnych serotypów i związanych z różnymi jednostkami chorobowymi. Na wykresach dotplot zanaczono regiony pochodzące od profagów. Scharakteryzuj oba wykresy w zakresie sekwencji profagów. 
 
 <img src="./images/rycina2.jpg" alt="Dotplot_ryc2"/>
