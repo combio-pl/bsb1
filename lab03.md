@@ -71,11 +71,11 @@ gatggaagtagaatcatcataacaaccaaaagataaacacttgcttgttaagtaaggaac
 
 
 ### Zadanie 2
-W pliku [arabidopsis.fa](./arabidopsis.fa) znajdują się dwie sekwencje nukleotydowe jednego z genów *Arabidopsis thaliana*. Korzystając z programu `dotmatcher` wykonaj analizę dotplot tych sekwencji (wynik analizy umieść w protokole). 
+W pliku [arabidopsis.fa](./arabidopsis.fa) znajdują się dwie sekwencje nukleotydowe jednego z genów *Arabidopsis thaliana*. Korzystając z programu dotmatcher wykonaj analizę dotplot tych sekwencji (wynik analizy umieść w protokole). 
 
-> Wskazówka: Pierwsza sekwencja to sekwencja genomowa, a druga sekwencja to mRNA. 
+> Wskazówka: pierwsza sekwencja to sekwencja genomowa, a druga sekwencja to mRNA 
 
-> Wskazówka: Najkrótszy egzon ma długość 72 pz. 
+> Wskazówka: najkrótszy egzon ma długość 72 pz 
 
 1. Z ilu egzonów składa się ten gen?
 
@@ -94,7 +94,7 @@ Przejdź do bazy `Gene`.
 
 4. Podaj identyfikator tego genu.
 
-Zapisz do plików FASTA sekwencję genomową (`NC_003075.7`) oraz sekwencję mRNA (`NM_118740.3`). Korzystając z programu `dotmatcher` wykonaj analizę dotplot tych sekwencji (wyniki analizy umieść w protokole), stosując następujące zestawy parametrów *window size* : *threshold*
+Zapisz do plików FASTA sekwencję genomową (`NC_003075.7`) oraz sekwencję mRNA (`NM_118740.3`). Korzystając z programu dotmatcher wykonaj analizę dotplot tych sekwencji (wyniki analizy umieść w protokole), stosując następujące zestawy parametrów *window size* : *threshold*
 
 A. 10:20
 
@@ -163,7 +163,7 @@ Wykonaj przyrównanie globalne (`needle`) i lokalne (`water`) sekwencji (wynik u
 
 
 ### Zadanie 8
-W bazie UniProt wyszukaj rekord syntetazy S-adenozylometioniny człowieka (`P31153`), *Escherichia Coli* (`P0A817`) oraz *Citrobacter koseri* (`A8APG1`). Wyświetl wszytskie rekordy w formacie FASTA. Wykorzystując program `needle` wykonaj przyrównanie następujących par sekwencji: 
+W bazie UniProt wyszukaj rekord syntetazy S-adenozylometioniny człowieka (`P31153`), *Escherichia Coli* (`P0A817`) oraz *Citrobacter koseri* (`A8APG1`). Wyświetl wszystkie rekordy w formacie FASTA. Wykorzystując program `needle` wykonaj przyrównanie następujących par sekwencji: 
 
 A. *Escherichia Coli* : *Citrobacter koseri*
 
