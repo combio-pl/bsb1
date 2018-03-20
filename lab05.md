@@ -1,7 +1,7 @@
 ## Przyrównanie wielu sekwencji (*Multiple Sequence Alignment*)
 
 ### Zadanie 1
-W pliku **ube.fa** znajdują się sekwencje aktywnego enzymu koniugującego ubikwitynę pochodzące z wielu organizmów. Korzystając z programu [ClustalOmega](http://www.ebi.ac.uk/Tools/msa/) wykonaj dopasowanie sekwencji z pliku.
+W pliku [ube.fa](./ube.fa) znajdują się sekwencje aktywnego enzymu koniugującego ubikwitynę pochodzące z wielu organizmów. Korzystając z programu [ClustalOmega](http://www.ebi.ac.uk/Tools/msa/) wykonaj dopasowanie sekwencji z pliku.
 
 1. Jakie aminokwasy są zachowane u wszystkich organizmów?
 2. Jaka może być przyczyna zachowania tych aminokwasów we wszystkich sekwencjach?
@@ -18,11 +18,11 @@ Dwa białka pochodzące z drożdży o numerach dostępu `NP_588162` i `NP_011428
 
 
 ### Zadanie 2
-W pliku **myoglobins.fa** znajdują się sekwencje białkowe mioglobiny z 14 gatunków kręgowców. Wykonaj dopasowanie tych sekwencji przy pomocy trzech programów: [ClustalOmega](http://www.ebi.ac.uk/Tools/msa/), [T-COFFEE](http://tcoffee.crg.cat/apps/tcoffee) i [MAFFT](http://mafft.cbrc.jp). Umieść wyniki w protokole. Podaj fragmenty sekwencji, w których programy zwracają różne dopasowania?
+W pliku [myoglobins.fa](./myoglobins.fa) znajdują się sekwencje białkowe mioglobiny z 14 gatunków kręgowców. Wykonaj dopasowanie tych sekwencji przy pomocy trzech programów: [ClustalOmega](http://www.ebi.ac.uk/Tools/msa/), [T-COFFEE](http://tcoffee.crg.cat/apps/tcoffee) i [MAFFT](http://mafft.cbrc.jp). Umieść wyniki w protokole. Podaj fragmenty sekwencji, w których programy zwracają różne dopasowania?
 
 
 ### Zadanie 3
-W pliku **tata.fa** znajdują się sekwencje fragmentów promotora, odpowiedzialnych za przyłączanie czynnika transkrypcyjnego. Wykorzystując program [Clustal Omega](http://www.ebi.ac.uk/Tools/msa/) i [T-COFFEE](http://tcoffee.crg.cat/apps/tcoffee) wykonaj przyrównanie tych sekwencji. Zwizualizuj uzyskane przyrównania za pomocą programu [WebLogo](http://weblogo.berkeley.edu/logo.cgi). Uzyskane logo umieść w protokole. 
+W pliku [tata.fa](./tata.fa) znajdują się sekwencje fragmentów promotora, odpowiedzialnych za przyłączanie czynnika transkrypcyjnego. Wykorzystując program [Clustal Omega](http://www.ebi.ac.uk/Tools/msa/) i [T-COFFEE](http://tcoffee.crg.cat/apps/tcoffee) wykonaj przyrównanie tych sekwencji. Zwizualizuj uzyskane przyrównania za pomocą programu [WebLogo](http://weblogo.berkeley.edu/logo.cgi). Uzyskane logo umieść w protokole. 
 
 1. Ile konserwatywnych domen można zidentyfikować na otrzymanych logotypach graficznych? 
 2. Zapisz motyw bogaty w sekwencje AT.
@@ -34,7 +34,7 @@ W pliku **tata.fa** znajdują się sekwencje fragmentów promotora, odpowiedzial
 ### Zadanie 4
 Poniżej znajduje się nieznana sekwencja białkowa. 
 ```
->
+>Query1
 MKDTDLSTLLSIIRLTELKESKRNALLSLIFQLSVAYFIALVIVSRFVRYVNYITYNNLV
 EFIIVLSLIMLIIVTDIFIKKYISKFSNILLETLNLKINSDNNFRREIINASKNHNDKNK
 LYDLINKTFEKDNIEIKQLGLFIISSVINNFAYIILLSIGFILLNEVYSNLFSSRYTTIS
