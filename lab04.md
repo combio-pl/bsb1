@@ -142,6 +142,7 @@ FIQLLHQGL
 5. Czy białka są zachowane na całej długości?
 
 Przejdź do zestawienia taksonomicznego (`Taxonomy reports`). 
+
 6. Ile białek pochodzi od organizmów z rodziny *Saccharomycetaceae*? 
 7. Czy wśród wyników znajdują się białka pochodzące od organizmów z gromady innej niż workowce (*Ascomycota*)? 
 
