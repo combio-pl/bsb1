@@ -99,7 +99,7 @@ Zidentyfikuj sekwencję nukleotydową wykorzystując przeszukiwanie programem `B
 
 
 ### Zadanie 5
-Poniżej znajduje się nieznana sekwencja białkowa. Zidentyfikuj ją korzystając z programu `BLAST` modyfikując następujące parametry wyszukiwania: `Database` UniProtKB/Swiss-Prot(swissprot) oraz `Organism` mammals (taxid: 40674), exclude rabbit (taxid: 9986). 
+Poniżej znajduje się nieznana sekwencja białkowa. Zmodyfikuj następujące parametry wyszukiwania `BLAST`: `Database` UniProtKB/Swiss-Prot(swissprot) oraz `Organism` mammals (taxid: 40674), exclude rabbit (taxid: 9986). 
 
 ```
 >sequence4
@@ -115,7 +115,7 @@ EKLRGWLKSNVSDAVAQSTRIIYGGSVTGATCKELASQPDVDGFLVGGASLKPEFVDIINAKQ
 
 
 ### Zadanie 6
-Poniżej znajduje się nieznana sekwencja białkowa. Zidentyfikuj ją korzystając z programu `BLAST` ograniczając wyszukiwanie do białek z bazy RefSeq (`Reference proteins (refseq_proteins)`).
+Poniżej znajduje się nieznana sekwencja białkowa. Ogranicz wyszukiwanie `BLAST` do białek z bazy RefSeq (`Reference proteins (refseq_proteins)`).
 
 ```
 >sequence
