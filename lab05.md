@@ -18,7 +18,10 @@ Dwa białka pochodzące z drożdży o numerach dostępu `NP_588162` i `NP_011428
 
 
 ### Zadanie 2
-W pliku [myoglobins.fa](./myoglobins.fa) znajdują się sekwencje białkowe mioglobiny z 14 gatunków kręgowców. Wykonaj dopasowanie tych sekwencji przy pomocy trzech programów: [ClustalOmega](http://www.ebi.ac.uk/Tools/msa/), [T-COFFEE](http://tcoffee.crg.cat/apps/tcoffee) i [MAFFT](http://mafft.cbrc.jp). Umieść wyniki w protokole. Podaj fragmenty sekwencji, w których programy zwracają różne dopasowania?
+W pliku [myoglobins.fa](./myoglobins.fa) znajdują się sekwencje białkowe mioglobiny z 14 gatunków kręgowców. Wykonaj dopasowanie tych sekwencji przy pomocy trzech programów: [ClustalOmega](http://www.ebi.ac.uk/Tools/msa/), [T-COFFEE](http://tcoffee.crg.cat/apps/tcoffee) i [MAFFT](http://mafft.cbrc.jp). Umieść wyniki w protokole. 
+
+1. Podaj fragmenty sekwencji, w których programy zwracają różne dopasowania?
+2. Podaj najdłuższy region o nieprzerwanej 100% identyczności. 
 
 
 ### Zadanie 3
