@@ -29,7 +29,10 @@ CCATCGCGTCCGCCATCTCCAGCAGCCGCACGCGGCGCATCTCGGGCAGCGTTGGGTCCT
 
 1. Czy rekord dotyczy sekwencji DNA / RNA / białka?
 2. Analizowana sekwencja została umieszczona w książce Michaela Crichtona "Jurassic Park". Korzystając z programu [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) porównaj tę sekwencję z nukleotydową bazą sekwencji (`Nucleotide collection (nr/nt)`). Czy umieszczony w książce fragment DNA rzeczywiście pochodzi od dinozaura?
-3. Korzystając z programu [dotmatcher](http://www.hpa-bioinfotools.org.uk/pise/dotmatcher.html) sprawdź jakie modyfikacje Michael Crichton wprowadził do sekwencji źródłowej. Dopasuj parametry analizy dotplot tak aby zwizualizować wprowadzone zmiany, załącz wynik do protokołu. 
+3. W panelu `Alignment` spójrz na przyrównanie sekwencji zapytania ze znalezioną sekwencją. Jakie modyfikacje Michael Crichton wprowadził do sekwencji źródłowej?
+4. Ile wynosi wartość punktacji *score* tego dopasowania?
+5. Ile wynosi wartość E-value tego dopasowania? O czym informuje ta wartość?
+6. Co oznaczają pola `Max score`, `Total score` znajdujące się w części `Description` w tabeli zawierającej listę znalezionych białek?
 
 
 ### Zadanie 2
@@ -49,7 +52,7 @@ YLSEFDYLVEGKDAVNELMKSYWEPLWKYSSPHAFPKLSPN
 
 1. Czy rekord dotyczy sekwencji DNA / RNA / białka?
 2. Zidentyfikuj sekwencję korzystając z programu `BLAST`. 
-3. Podaj numer dostępu (`Accession number`).
+3. Podaj numer dostępu tej sekwencji (`Accession number`).
 4. Z jakiego organizmu pochodzi sekwencja?
 5. Podaj numer dostępu Gene Ontology (`GOA`).
 6. Podaj klasyfikację Gene Ontology (`GO Term`).
@@ -88,34 +91,18 @@ TCGGAGGCGGCATGGACCCAGCGTAGATCATGCTGGATTTGTACTGCCGGAATTC
 ```
 
 1. Czy rekord dotyczy sekwencji DNA / RNA / białka?
-2. Zidentyfikuj sekwencję korzystając z programu `BLAST`.
-3. W sekwencji Mark ukrył wiadomość, którą można znaleźć poprzez przeszukanie białkowej bazy. Jakiego algorytmu `BLAST` należy użyć by odczytać wiadomość? Jak brzmi ukryta wiadomość?
-
+2. W sekwencji Mark ukrył pewną wiadomość, którą można znaleźć poprzez przeszukanie białkowej bazy. Jakiego algorytmu `BLAST` należy użyć by odczytać wiadomość? Jak brzmi ukryta wiadomość?
 > Wskazówka: wiadomości szukaj w dopasowaniu sekwencji 
-
+3. Co oznaczają fragmenty sekwencji w dopasowaniach, które zostały wyróżnione małą czcionką w kolorze szarym?
 
 ### Zadanie 4
-Zidentyfikuj sekwencję nukleotydową wykorzystując przeszukiwanie programem `BLAST` za pomocą numeru dostępu `NM_001349579`. Ile wynosi wartość oczekiwana *E-value* tego dopasowania? Jaka jest długość tej sekwencji?
+Czy w bazie NCBI istnieje sekwencja, która zawiera motyw `CAPTAINCRICK`? Ile wynosi E-value najlepszego znalezionego przyrównania? O czym informuje ta wartość?
 
 
 ### Zadanie 5
-Poniżej znajduje się nieznana sekwencja białkowa. Zmodyfikuj następujące parametry wyszukiwania `BLAST`: `Database` UniProtKB/Swiss-Prot(swissprot) oraz `Organism` mammals (taxid: 40674), exclude rabbit (taxid: 9986). 
+Poniżej znajduje się sekwencja białkowa pochodząca z drożdży *Saccharomyces cerevisiae*. Znajdź sekwencje podobne wśród gatunków innych grzybów.
 
-```
->sequence4
-APSRKFFVGGNWKMNGRKKKNLGELITTLNAAKVPADTEVVCAPPTAYIDFARQKLDPKIAV
-AAQNCYKVTNGAFTGEISPGMIKDCGATWVVLGHSERRHVFGESDELIGQKVAHALSEGLGV
-IACIGEKLDEREAGITEKVVFEQTKVIADNVKDWSKVVLAYEPVWAIGTGKTATPQQAQEVH
-EKLRGWLKSNVSDAVAQSTRIIYGGSVTGATCKELASQPDVDGFLVGGASLKPEFVDIINAKQ
-```
-
-1. Jaką funkcję może pełnić to białko?
-2. Podaj numer dostępu (`Accession number`).
-3. Z jakiego organizmu pochodzi?
-
-
-### Zadanie 6
-Poniżej znajduje się nieznana sekwencja białkowa. Ogranicz wyszukiwanie `BLAST` do białek z bazy RefSeq (`Reference proteins (refseq_proteins)`).
+> Wskazówka: Ogranicz wyszukiwanie `BLAST` do: białek z bazy RefSeq (`Reference proteins (refseq_proteins)`), organizmu: `Fungi` z wykluczeniem organizmu `Saccharomyces cerevisiae`.
 
 ```
 >sequence
@@ -134,8 +121,8 @@ FIQLLHQGL
 ```
 
 1. Jaką funkcję może pełnić to białko?
-2. Podaj numer dostępu (`Accession number`).
-3. Z jakiego organizmu pochodzi?
+2. Podaj numer dostępu (`Accession number`) białka o największym podobieństwie.
+3. Z jakiego organizmu ono pochodzi?
 4. Jaka jest długość tego dopasowania?
 5. Czy białka są zachowane na całej długości?
 
@@ -145,8 +132,8 @@ Przejdź do zestawienia taksonomicznego (`Taxonomy reports`).
 7. Czy wśród wyników znajdują się białka pochodzące od organizmów z gromady innej niż workowce (*Ascomycota*)? 
 
 
-### Zadanie 7
-Poniżej znajduje się sekwencja białka DCC człowieka (*Deleted in Colorectal Carcinoma*). Wyszukaj białka pochodzące od innych ssaków, które wykazują największe podobieństwo do białka DCC. 
+### Zadanie 6
+Poniżej znajduje się sekwencja białka DCC człowieka (*Deleted in Colorectal Carcinoma*). Korzystając z programu NCBI BLAST wyszukaj w bazie UniProtKB/Swiss-Prot(swissprot) białka pochodzące od innych niż człowiek ssaków, które wykazują największe podobieństwo do białka DCC. 
 
 ```
 >seq_dcc
@@ -173,35 +160,29 @@ IPTACVRPTHPLRSFANPLLPPPMSAIEPKVPYTPLLSQPGPTLPKTHVKTASLGLAGKARSPLLPVSVP
 TAPEVSEESHKPTEDSANVYEQDDLSEQMASLEGLMKQLNAITGSAF
 ```
 
->Wskazówka: ogranicz przeszukiwanie do sekwencji ssaków (*mammals*) oraz bazy UniProtKB/Swiss-Prot(swissprot).
-
 1. Podaj numer dostępu (`Accession number`) sekwencji, która otrzymała najwyższą wartość *score*.
-2. Z jakiego organizmu pochodzi sekwencji z pkt 1?
-3. Do jakiego innego ssaka należy sekwencja najbardziej podobna do sekwencji DCC człowieka?
-4. Ile wynosi procent identyczności i podobieństwa między tymi dwoma białkami?
-5. Na czym polega różnica między identycznością a podobieństwem?
-6. Ile wynosi wartość *score* tego dopasowania?
-7. Ile wynosi wartość oczekiwana *E-value* tego dopasowania?
-8. Jaka jest długość tego dopasowania?
-9. Czy białko pochodzące z człowieka zostało dopasowane na całej swojej długości?
+2. Z jakiego organizmu pochodzi ta sekwencja?
+3. Ile wynosi procent identyczności i podobieństwa między tymi dwoma białkami?
+4. Na czym polega różnica między identycznością a podobieństwem?
+5. Ile wynosi wartość *score* tego dopasowania?
+6. Ile wynosi wartość oczekiwana *E-value* tego dopasowania?
+7. Jaka jest długość tego dopasowania?
+8. Czy białko pochodzące z człowieka zostało dopasowane na całej swojej długości?
 > Wskazówka: kolumna `Query cover` w części `Description`
-10. Co oznaczają fragmenty sekwencji w dopasowaniach, które zostały wyróżnione małą czcionką w kolorze szarym?
-11. Co oznaczają pola `Max score`, `Total score` znajdujące się w części `Description` w tabeli zawierającej listę znalezionych białek?
->Wskazówka: zwróć uwagę na dopasowanie sekwencji zapytania z białkiem `Q2VWP9.1`
 
 
-### Zadanie 8
+### Zadanie 7
 Poniżej znajduje się fragment rekordu dotyczącego sekwencji pochodzącej z nieznanego mikroorganizmu. Wykorzystując dotychczas poznane narzędzia zidentyfikuj sekwencję.
 
 ```
-LOCUS       CLONE12    610 bp DNA             UPDATED   06/14/98
-DEFINITION  unknown
-ACCESSION   seq12
-KEYWORDS    sequence
-SOURCE      unknown
-COMMENT     sequence data from unknown microorganism
-ORIGIN      
-        1 GTGAAGGTGG GGACGCATGT CCTGGGCGGC GTGGCAGCCG CCGCCGGCGT TGGTATCGGA
+LOCUS       CLONE12    610 bp DNA             UPDATED   06/14/98
+DEFINITION  unknown
+ACCESSION   seq12
+KEYWORDS    sequence
+SOURCE      unknown
+COMMENT     sequence data from unknown microorganism
+ORIGIN      
+        1 GTGAAGGTGG GGACGCATGT CCTGGGCGGC GTGGCAGCCG CCGCCGGCGT TGGTATCGGA
        61 AAGAGGCTCC TCTCCAAGGT GGTCGTCCCC ACGCCCAAGG AGGGCGGGGA GCGGGTGGCC
       121 CAAATTTTTA CCGAGGCCGC GGATTATACA GAGAGGGAGG CTCTTGTGTA GGGGGAGGCC
       181 ATCGGCCTGG GGACGCCCGG CCCCCTGGAC TTCCGCCGCG GGGTGATCCG CTTCGCCCCC
@@ -214,6 +195,4 @@ ORIGIN      
       601 CGGGAGCTCT
 //
 ```
-
->Wskazówka: Zoptymalizuj parametry przeszukiwania do `somewhat similar sequences (blastn)`. 
-
+
