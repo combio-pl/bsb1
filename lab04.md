@@ -28,10 +28,10 @@ CCATCGCGTCCGCCATCTCCAGCAGCCGCACGCGGCGCATCTCGGGCAGCGTTGGGTCCT
 ```
 
 1. Czy rekord dotyczy sekwencji DNA / RNA / białka?
-2. Analizowana sekwencja została umieszczona w książce Michaela Crichtona "Jurassic Park". Korzystając z programu [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) porównaj tę sekwencję z nukleotydową bazą sekwencji (`Nucleotide collection (nr/nt)`). Czy umieszczony w książce fragment DNA rzeczywiście pochodzi od dinozaura?
+2. Analizowana sekwencja została umieszczona w książce Michaela Crichtona "Jurassic Park". Korzystając z programu [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) porównaj tę sekwencję z nukleotydową bazą sekwencji (`Nucleotide collection (nr/nt)`). Czy umieszczony w książce fragment sekwencji rzeczywiście pochodzi od dinozaura?
 3. W panelu `Alignment` spójrz na przyrównanie sekwencji zapytania ze znalezioną sekwencją. Jakie modyfikacje Michael Crichton wprowadził do sekwencji źródłowej?
 4. Ile wynosi wartość punktacji *score* tego dopasowania?
-5. Ile wynosi wartość E-value tego dopasowania? O czym informuje ta wartość?
+5. Ile wynosi wartość *E-value* tego dopasowania? O czym informuje ta wartość?
 6. Co oznaczają pola `Max score`, `Total score` znajdujące się w części `Description` w tabeli zawierającej listę znalezionych białek?
 
 
@@ -96,7 +96,7 @@ TCGGAGGCGGCATGGACCCAGCGTAGATCATGCTGGATTTGTACTGCCGGAATTC
 3. Co oznaczają fragmenty sekwencji w dopasowaniach, które zostały wyróżnione małą czcionką w kolorze szarym?
 
 ### Zadanie 4
-Czy w bazie NCBI istnieje sekwencja, która zawiera motyw `CAPTAINCRICK`? Ile wynosi E-value najlepszego znalezionego przyrównania? O czym informuje ta wartość?
+Czy w bazie NCBI istnieje sekwencja, która zawiera motyw `CAPTAINCRICK`? Ile wynosi *E-value* najlepszego znalezionego przyrównania? O czym informuje ta wartość?
 
 
 ### Zadanie 5
@@ -195,4 +195,4 @@ ORIGIN
       601 CGGGAGCTCT
 //
 ```
-
+
