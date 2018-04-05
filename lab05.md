@@ -48,7 +48,7 @@ IDLEKWKAKLFPYKDDVLRRKIYEAMDRALGKRFELYALRRHFATYMQLKKVPPLAINIL
 QGRVGPNEFRILKENYTVFTIEDLRKLYDEAGLVVLE
 ```
 
-1. Zidentyfikuj tę sekwencję wykorzystując program BLAST. Ogranicz przeszukiwanie do bazy PDB (Protein Data Bank).
+1. Zidentyfikuj sekwencje homologiczne wykorzystując program BLAST. Ogranicz przeszukiwanie do bazy PDB (Protein Data Bank).
 2. Ile istotnych statystycznie wyników zostało znalezionych?
 
 Wróć do BLAST i wykonaj ponownie przeszukiwanie. Ogranicz wyszukiwanie do bazy danych `nr (non-redundant protein sequences)` oraz wybierz algorytm `PSI–BLAST (Position-Specific Iterated BLAST)`.  
