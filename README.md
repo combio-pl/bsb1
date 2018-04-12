@@ -12,7 +12,7 @@ Bioinformatyka, rok I
 | **03**	| 15.03.2018 | Przyrównanie sekwencji - Dotplot, Needle, Water | [lab03](./lab03.md) |
 | **04**	| 22.03.2018 | Wyszukiwanie sekwencji podobnych - BLAST | [lab04](./lab04.md) |
 | **05**	| 05.04.2018 | Dopasowanie wielu sekwencji (MSA) | [lab05](./lab05.md) |
-| **06**	| 12.04.2018 | Analiza filogenetyczna | lab06 |
+| **06**	| 12.04.2018 | Analiza filogenetyczna | [lab06](./lab06.md) |
 | **07**	| 19.04.2018 | Kolokwium 1 | - |
 | **08**	| 10.05.2018 | Analizy genomowe (1) | lab08 |
 | **09**	| 17.05.2018 | Analizy genomowe (2) |  lab09 |
