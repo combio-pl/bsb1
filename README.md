@@ -14,11 +14,10 @@ Bioinformatyka, rok I
 | **05**	| 05.04.2018 | Dopasowanie wielu sekwencji (MSA) | [lab05](./lab05.md) |
 | **06**	| 12.04.2018 | Analiza filogenetyczna | [lab06](./lab06.md) |
 | **07**	| 19.04.2018 | Kolokwium 1 | - |
-| **08**	| 10.05.2018 | Analizy genomowe (1) | lab08 |
-| **09**	| 17.05.2018 | Analizy genomowe (2) |  lab09 |
-| **10**	| 24.05.2018 | NGS | lab10 |
-| **11**	| 07.06.2018 | Analiza strukturalna RNA | lab11 |
-| **12**	| 14.06.2018 | Kolokwium 2 |  -  |
+| **08**	| 17.05.2018 | Analizy genomowe | lab08 |
+| **09**	| 24.05.2018 | NGS | lab09 |
+| **10**	| 07.06.2018 | Analiza strukturalna RNA | lab10 |
+| **11**	| 14.06.2018 | Kolokwium 2 |  -  |
 
 ### Kontakt
 mgr inż. Agnieszka Rasińska (agnieszka.rasinska@amu.edu.pl)
