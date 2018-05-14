@@ -9,11 +9,15 @@ Otwórz stronę serwisu [UCSC Genome Browser](https://www.genome.ucsc.edu/) i w 
 
 
 Zresetuj ustawienia (`defaut tracks` oraz `default order`). Zwróć uwagę na ścieżkę SNPs (128). Rozwiń dostępne opcje formatowania ścieżki SNPs (128). Zmień nastepujące opcje: 
-	* `Color Specification: Function` - `Coding-NonSynonymous` - blue, pozostałe typy - czarny
-	* Tryb wyświetlania (`display mode` - pack
+	
+* `Color Specification: Function` - `Coding-NonSynonymous` - blue, pozostałe typy - czarny
+* Tryb wyświetlania (`display mode` - pack
 
-Wybierz SNP rs28273098. Podaj jego pozycję genomową?
-Przejdź do bazy danych `dbSNP`. Jaka zmiana aminokwasu jest powiązana z tym polimorfizmem?
+Wybierz SNP rs28273098. 
+1. Podaj jego pozycję genomową?
+
+Przejdź do bazy danych `dbSNP`. 
+2. Jaka zmiana aminokwasu jest powiązana z tym polimorfizmem?
 
 ### Zad. 2
 #### SNP w mysim genie BRCA1 (Ensembl)
@@ -29,7 +33,7 @@ Znajdź ten sam polimorfizm co w zadaniu 1 (SNP rs28273098). Jaka jest konsekwen
 ### Zad. 3
 #### Miejsca wiązania czynnika transkrypcyjnego (UCSC)
 
-W przeglądarce UCSC znajdź w genomie człowieka (`GRCh37/hg19`) gen NRAS (*neuroblastoma RAS viral (v-ras) oncogene homolog*). Zwiększ wyświetlany obszar o 1000 par zasad z obu stron genu. Znajdź ścieżkę `TFBS Conserved` (grupa `Regulation`) i zmien opcję jej wyśiwtlania na `full`. Wyśiwtl szczegółowe informacje dotyczące czynnika transkrypcyjnego `V$CDC5_01`, Na podstawie bazy UniProt krótko opisz jakie pełni funkcje. 
+W przeglądarce UCSC znajdź w genomie człowieka (`GRCh37/hg19`) gen NRAS (*neuroblastoma RAS viral (v-ras) oncogene homolog*). Zwiększ wyświetlany obszar o 1000 par zasad z obu stron genu. Znajdź ścieżkę `TFBS Conserved` (grupa `Regulation`) i zmien opcję jej wyświetlania na `full`. Wyświetl szczegółowe informacje dotyczące czynnika transkrypcyjnego `V$CDC5_01`. Na podstawie bazy UniProt krótko opisz jakie pełni funkcje. 
 
 
 ### Zad. 4
@@ -178,26 +182,26 @@ Zaznacz najbardziej podobne sekwencje EST (`E-value` ~ 0.0).
 
 Zapisz zaznaczone sekwencje (`Download` -> `Fasta (complete sequences)`) i nazwij plik `est.fasta`.
 
-####Składanie sekwencji EST
+#### Składanie sekwencji EST
 
 W celu złożenia krótkich nakładających się sekwencji EST w dłuższe sekwencje (*contigi*) użyj programu [CAP3](http://doua.prabi.fr/software/cap3). W polu sekwencji umieść pobrane sekwencje EST i naciśnij przycisk `Submit`. Otwórz wyniki `Contigs`. 
 
-1. Ile złożonych sekwencji uzyskano? Zapisz każdą z nich w osobnym pliku.
+3. Ile złożonych sekwencji uzyskano? Zapisz każdą z nich w osobnym pliku.
 
 Otwórz szczegóły złożenia (`Assembly details`). 
 
-2. Który contig składa się z większej liczby sekwencji EST?
+4. Który contig składa się z większej liczby sekwencji EST?
 
 Otwórz wyniki `Single sequences`.
 
-3. Czy jakieś sekwencje nie zostały uwzględnione w złożeniu?
+5. Czy jakieś sekwencje nie zostały uwzględnione w złożeniu?
 
-####Mapowanie sekwencji contigów do genomu
+#### Mapowanie sekwencji contigów do genomu
 
 W celu zmapowania sekwencji contigów do sekwencji genomowej `genomic_masked.fasta` użyj programu [Splign](http://www.ncbi.nlm.nih.gov/sutils/splign/splign.cgi?textpage=online&level=form). Wykonaj przyrównanie osobno dla każdego contigu i zapisz ich lokalizację w sekwencji.
 
-1. Czy lokalizacje contigów pokrywają się z predykcjami sekwencji kodujących (CDS) programów przewidywania *ab initio*?
-2. O czym świadczy istnienie więcej niż jednego contigu?
+6. Czy lokalizacje contigów pokrywają się z predykcjami sekwencji kodujących (CDS) programów przewidywania *ab initio*?
+7. O czym świadczy istnienie więcej niż jednego contigu?
 
 
 ## Sekwencje homologiczne
