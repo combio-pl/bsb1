@@ -3,7 +3,15 @@
 ## Przeglądarki genomowe - UCSC, Ensembl
 ### Zad. 1 
 #### SNP w mysim genie BRCA1 (UCSC)
-Sprawdź jaki wpływ na sekwencję białka mają wariancje SNP w genie BRCA1(*breast cancer type 1 susceptibility protein*) myszy. Otwórz stronę serwisu [UCSC Genome Browser](https://www.genome.ucsc.edu/). Przywróć ustawienia domyślne (`Genome Browser` -> reset all users settings). W zakładce `Genome` wybierz genom myszy (`mouse GRCm38/mm10`). Wyszukaj gen BRCA1.
+Sprawdź jaki wpływ na sekwencję białka mają SNP w mysim genie BRCA1 (*breast cancer type 1 susceptibility protein*).
+ 
+Otwórz stronę serwisu [UCSC Genome Browser](https://www.genome.ucsc.edu/). 
+
+Przywróć ustawienia domyślne (`Genome Browser` -> `Reset all users settings`). 
+
+W zakładce `Genome` wybierz genom myszy (`mouse GRCm38/mm10`). 
+
+Wyszukaj gen BRCA1.
 
 > Wskazówka: Użyj podpowiedzi wyświetlanych podczas wspisywania.
 
@@ -11,11 +19,11 @@ Sprawdź jaki wpływ na sekwencję białka mają wariancje SNP w genie BRCA1(*br
 2. Z ilu egzonów składa się ten gen?
 3. Na której nici występuje ten gen (+ czy -)?
 
- Zwróć uwagę na ścieżkę SNPs (142). Rozwiń dostępne opcje formatowania ścieżki SNPs (128). Zmień nastepujące opcje: 
+ Zwróć uwagę na ścieżkę `SNPs (142)`. Rozwiń dostępne opcje formatowania tej ścieżki. Zmień następujące opcje: 
 	
-* Tryb wyświetlania `display mode` - `pack`
-* `Coloring options` -> `SNP Feature for Color Specification` Function
-* `Coding-NonSynonymous` - blue, pozostałe typy - czarny
+* Tryb wyświetlania (`display mode`) -> `pack`
+* `Coloring options` -> `SNP Feature for Color Specification` -> `Function`
+* `Coding-NonSynonymous` -> blue, pozostałe typy -> czarny
 
 4. Co oznacza `Coding-NonSynonymous`? 
 
@@ -25,35 +33,54 @@ Wybierz SNP rs28273098.
 6. Podaj pozycję tego SNP w sekwencji genomowej.
 
 Przejdź do bazy danych `dbSNP`. 
+
 7. Jaka zmiana aminokwasu jest powiązana z tym SNP?
 
 ### Zad. 2
 #### SNP w mysim genie BRCA1 (Ensembl)
-Otwórz stronę serwisu [Ensembl](https://www.ensembl.org) i wybierz genom myszy. Wyszukaj gen BRCA1 (*breast cancer type 1 susceptibility protein*). Z karty genu przejdź do jego lokalizacji (`Location`). Włącz wyświetlanie ścieżki `Sequence variants`.
+Otwórz stronę serwisu [Ensembl](https://www.ensembl.org) i wybierz genom myszy. 
+
+Wyszukaj gen BRCA1 (*breast cancer type 1 susceptibility protein*). 
+
+Z karty genu przejdź do jego lokalizacji (`Location`). 
+
+Włącz wyświetlanie ścieżki `Sequence variants`.
 
 > Wskazówka: Z menu po lewej wybierz `Configure this page`, następnie wybierz grupę `Variation`. Zaznacz ścieżkę `Sequence variants (dbSNP and all other sources)`, wyświetloną w stylu `expanded with names`.
 
-Znajdź ten sam polimorfizm co w zadaniu 1 (SNP rs28273098). 
+Znajdź ten sam SNP co w zadaniu 1 (SNP rs28273098). 
 
 >Wskazówka: Nazwy SNP wyświetlane będą jeżeli okno widoku obejmować będzie mniej niż 10 kb sekwencji. 
 
 1. Jaka jest konsekwencja biologiczna występowania tego wariantu?
 
 ### Zad. 3
-#### Miejsca wiązania czynnika transkrypcyjnego
+#### Miejsca wiązania czynnika transkrypcyjnego (UCSC)
 
-* W przeglądarce UCSC znajdź w genomie człowieka (`GRCh37/hg19`) gen NRAS (*neuroblastoma RAS viral (v-ras) oncogene homolog*).
-* Zwiększ wyświetlany obszar o 1000 par zasad z obu stron genu. 
-* Znajdź ścieżkę `TFBS Conserved` (grupa `Regulation`) i zmien opcję jej wyświetlania na `full`. 
-* Wyświetl szczegółowe informacje dotyczące czynnika transkrypcyjnego `V$CDC5_01`. 
-* Na podstawie bazy UniProt krótko opisz jakie pełni funkcje. 
+W przeglądarce UCSC znajdź w genomie człowieka (`GRCh37/hg19`) gen NRAS (*neuroblastoma RAS viral (v-ras) oncogene homolog*).
+
+Zwiększ wyświetlany obszar o 1000 par zasad z obu stron genu.
+ 
+Znajdź ścieżkę `TFBS Conserved` (grupa `Regulation`) i zmien opcję jej wyświetlania na `full`. 
+
+Wyświetl szczegółowe informacje dotyczące czynnika transkrypcyjnego `V$CDC5_01`. 
+
+Na podstawie bazy UniProt krótko opisz jakie pełni funkcje. 
 
 
 ## Sekwencje powtarzalne
 ### Zad. 4
 #### Identyfikacja elementów powtarzalnych (RepeatMasker)
 
-Otwórz stronę programu [RepeatMasker](http://www.repeatmasker.org) i wybierz serwis `RepeatMasking`. Umieść sekwencję genomową z pliku [genomic.fasta](./genomic.fasta) w polu `Sequence`. W polu `DNA source` wybierz genom człowieka. W zaawansowanych ustawieniach (`Advanced Options`) wybierz `Masking options` > `Repetitive sequences in lower case`. Naciśnij przycisk `Submit sequence`.
+Otwórz stronę programu [RepeatMasker](http://www.repeatmasker.org) i wybierz serwis `RepeatMasking`. 
+
+Umieść sekwencję genomową z pliku [genomic.fasta](./genomic.fasta) w polu `Sequence`. 
+
+W polu `DNA source` wybierz genom człowieka. 
+
+W zaawansowanych ustawieniach (`Advanced Options`) wybierz `Masking options` > `Repetitive sequences in lower case`. 
+
+Naciśnij przycisk `Submit sequence`.
 
 1. Ile wynosi procentowy udział wszystkich zidentyfikowanych sekwencji powtarzalnych?
 2. Wypisz nazwy elementów powtarzalnych, które zostały zidentyfikowane w sekwencji.
@@ -84,11 +111,17 @@ Uruchom ponownie program RepeatMasker. Tym razem z opcji `Masking options` wybie
 Zapisz zamaskowaną sekwencję genomową w pliku `genomic_masked.fasta` i załącz do protokołu. 
 
 
-## Przewidywanie genów ab initio
+## Przewidywanie genów *ab initio*
 ### Zad. 5
 #### FGENESH
 
-Otwórz program [FGENESH](http://www.softberry.com). Wybierz `Run Programs Online` > `Gene Finding in Eukaryota` > `FGENESH`. Wklej sekwencję `genomic_masked.fasta` i wybierz odpowiedni organizm. Naciśnij `search`.
+Otwórz program [FGENESH](http://www.softberry.com). 
+
+Wybierz `Run Programs Online` > `Gene Finding in Eukaryota` > `FGENESH`. 
+
+Wklej sekwencję `genomic_masked.fasta` i wybierz odpowiedni organizm. 
+
+Naciśnij `search`.
 
 1. Ile potencjalnych genów zostało zidentyfikowanych w tej sekwencji?
 2. Co to jest TSS i PolyA?
@@ -100,14 +133,22 @@ Otwórz program [FGENESH](http://www.softberry.com). Wybierz `Run Programs Onlin
 
 #### GENSCAN
 
-Otwórz program [GENSCAN](http://genes.mit.edu/GENSCAN.html). W polu sekwencji wklej tylko sekwencję (bez nagłówka) z pliku `genomic_masked.fasta`. Wybierz odpowiedni organizm i naciśnij `search`.
+Otwórz program [GENSCAN](http://genes.mit.edu/GENSCAN.html). 
+
+W polu sekwencji wklej tylko sekwencję (bez nagłówka) z pliku `genomic_masked.fasta`. 
+
+Wybierz odpowiedni organizm i naciśnij `search`.
 
 8. Czym różnią się uzyskane wyniki przewidywań od wyników FGENESH?
 9. Podaj nazwy i lokalizacje wszystkich zidentyfikowanych elementów struktury genów.
 
 #### Augustus
 
-Otwórz program [Augustus](http://bioinf.uni-greifswald.de/augustus/submission.php). W polu sekwencji wklej sekwencję FASTA z pliku `genomic_masked.fasta`. Wybierz odpowiedni organizm i naciśnij `Run AUGUSTUS`.
+Otwórz program [Augustus](http://bioinf.uni-greifswald.de/augustus/submission.php). 
+
+W polu sekwencji wklej sekwencję FASTA z pliku `genomic_masked.fasta`. 
+
+Wybierz odpowiedni organizm i naciśnij `Run AUGUSTUS`.
 
 10. Czym różnią się uzyskane predykcje od wyników GENSCAN, FGENESH?
 11. Podaj nazwy i lokalizacje wszystkich zidentyfikowanych elementów struktury genów.
@@ -153,15 +194,15 @@ W celu zmapowania sekwencji contigów do sekwencji genomowej `genomic_masked.fas
 ## Wyszukiwanie sekwencji homologicznych 
 ### Zad. 7
 
-Korzystając z programu NCBI BLAST dla sekwencji białkowych sprawdź czy w bazie RefSeq znajdują się sekwencje człowieka podobne do białka przewidzianego przez program FGENESH.
+Korzystając z programu NCBI BLAST dla sekwencji białkowych sprawdź czy w bazie RefSeq znajdują się sekwencje człowieka podobne do białka przewidzianego przez program FGENESH (`fgenesh.fasta`).
 
 1. Jak nazywa się gen, który przewidziałaś/eś?
-2. W oparciu o wyniki BLAST sprawdź czy przewidziana sekwencja białkowa została poprawnie wyznaczona?
+2. W oparciu o wyniki BLAST sprawdź czy przewidziana sekwencja białkowa została poprawnie wyznaczona.
 
 
 ### Zad. 8
 
-Korzystając z programu NCBI BLAST przeszukaj sekwencje kręgowców w bazie RefSeq stosując jako zapytanie sekwencję białkową uzyskaną w programie FGENESH. Zapisz do pliku `zad12.fasta` po jednej, najwyżej punktowanej sekwencji z następującyh organizmów:
+Korzystając z programu NCBI BLAST przeszukaj sekwencje kręgowców w bazie RefSeq stosując jako zapytanie sekwencję białkową uzyskaną w programie FGENESH (`fgenesh.fasta`). Zapisz do pliku `zad8.fasta` po jednej, najwyżej punktowanej sekwencji z następującyh organizmów:
    * człowieka (*Homo sapiens*), 
    * szympansa (*Pan troglodytes*),
    * makaka (*Macaca mulatta*),
@@ -175,7 +216,7 @@ Wykonaj dopasowanie zapisanych sekwencji. Jaki motyw jest najlepiej zachowany?
 ## Domeny białkowe (Pfam)
 ### Zad. 9
 
-Zidentyfikuj domeny białkowe wystepujące w sekwencji białkowej przewidzianej przez program FGENESH. Użyj narzedzia [Pfam](http://pfam.xfam.org) -> Search -> Sequence. 
+Zidentyfikuj domeny białkowe wystepujące w sekwencji białkowej przewidzianej przez program FGENESH (`fgenesh.fasta`). Użyj narzędzia [Pfam](http://pfam.xfam.org) -> `Search` -> `Sequence`. 
 
 1. Jaka domena (rodzina) została zidentyfikowana w tym białku?
 
@@ -187,7 +228,7 @@ Przejdź do rekordu.
 
 Przejdź do zakładki `HMM logo`.
 
-5. Jaka jest długośc sekwencji domeny?
+5. Jaka jest długość sekwencji domeny?
 6. Jaki aminokwas i na jakich pozycjach jest najbardziej zachowany?
 7. Czy zachowawczość tego aminokwasu jest zbieżna z wynikami, które otrzymaliśmy w zadaniu 8?
 
