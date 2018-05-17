@@ -232,7 +232,7 @@ Przejdź do zakładki `HMM logo`.
 6. Jaki aminokwas i na jakich pozycjach jest najbardziej zachowany?
 7. Czy zachowawczość tego aminokwasu jest zbieżna z wynikami, które otrzymaliśmy w zadaniu 8?
 
-### Zadanie dodatkowe*
+## Zadanie dodatkowe*
 #### Identyfikacja genów regulowanych przez czynnik regulatorowy SMARCB1
 
 W przeglądarce UCSC Genome Browser wybierz z menu `Tools -> Table Browser`. Pobierz dane dla genomu człowieka (złożenie hg19, chromosom 22) dotyczące pozycji wiązania czynnika transkrypcyjnego SMARCB1. 
