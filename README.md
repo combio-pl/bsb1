@@ -15,7 +15,7 @@ Bioinformatyka, rok I
 | **06**	| 12.04.2018 | Analiza filogenetyczna | [lab06](./lab06.md) |
 | **07**	| 19.04.2018 | Kolokwium 1 | - |
 | **08**	| 17.05.2018 | Analizy genomowe | [lab08](./lab08.md)|
-| **09**	| 24.05.2018 | NGS | lab09 |
+| **09**	| 24.05.2018 | NGS | [lab09](./lab09.md) |
 | **10**	| 07.06.2018 | Analiza strukturalna RNA | lab10 |
 | **11**	| 14.06.2018 | Kolokwium 2 |  -  |
 
