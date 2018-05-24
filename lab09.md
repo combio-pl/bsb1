@@ -86,7 +86,7 @@ Zmień typ danych na format BED.
 
 11. Wyświetl wyniki w przeglądarce genomowej UCSC. Ustaw widok okna obejmujący cały chromosom 22. Znajdź egzon o największej liczbie SNP. Jakiego genu jest to egzon?
 
-> Wskazówka: Rozwiń szczegółowy opis pliku 8: Cut in data 7 i wybierz link `display at UCSC`
+> Wskazówka: Rozwiń szczegółowy opis pliku i wybierz link `display at UCSC`
 > Wskazówka: Ustaw filtr na widoku ścieżki `User Track` (`show only items with score at or above:` 40)
 
 12. W bazie `Gene` NCBI znajdź rekord dotyczący genu z pkt 11. Podaj GeneID oraz pełną nazwę genu.
