@@ -1,7 +1,7 @@
 ## Analiza strukturalna RNA
 
 ### Zadanie 1
-Zidentyfikuj poniższą sekwencją wykorzystując *Sequence search* w bazie [Rfam](rfam.xfam.org). 
+Zidentyfikuj poniższą sekwencję wykorzystując *Sequence search* w bazie [Rfam](http://rfam.xfam.org/).
 
 ```
 >UTR
@@ -21,14 +21,14 @@ Za pomocą programu [RNAstructure](https://rna.urmc.rochester.edu/RNAstructureWe
 1. Jakie elementy struktury drugorzędowej RNA zostały przewidziane?
 2. Ile wynosi minimalna swobodna energia dla tej struktury?
 3. Jak oznaczone są zasady, których prawdopodobieństwo sparowania/niesparowania wynosi min. 99%?
-4. Zapisz strukturę w formacie PNG i załącz do protokołu. 
+4. Zapisz strukturę (plik PNG) i załącz do protokołu. 
 
 ### Zadanie 3
 Za pomocą programu [mfold](http://unafold.rna.albany.edu/?q=mfold/RNA-Folding-Form) wykonaj przewidywanie struktury drugorzędowej RNA z zadania 1.
 
 1. Czy struktura jest zgodna z przewidywaniami programu RNAstructure?
 2. Ile wynosi minimalna swobodna energia dla tej struktury?
-3. Zapisz strukturę w formacie PNG i załącz do protokołu. 
+3. Zapisz strukturę (plik PNG) i załącz do protokołu. 
 
 ### Zadanie 4
 Za pomocą programu [RNAfold](http://rna.tbi.univie.ac.at//cgi-bin/RNAWebSuite/RNAfold.cgi) wykonaj przewidywanie struktury drugorzędowej RNA z zadania 1.
@@ -37,7 +37,7 @@ Za pomocą programu [RNAfold](http://rna.tbi.univie.ac.at//cgi-bin/RNAWebSuite/R
 2. Ile wynosi minimalna swobodna energia dla tej struktury?
 3. Czy prawdopodobieństwo dla poszczególnych zasad jest zgodne z wynikami z zadania 2?
 4. Zapisz strukturę w formacie dot bracket.
-5. Zapisz strukturę w formacie PDF i załącz do protokołu. 
+5. Zapisz strukturę (plik PDF) i załącz do protokołu. 
 
 ### Zadanie 5
 Za pomocą programu [RNAbows](http://rna.williams.edu/rnabows/) (*AllPairs*) wykonaj przewidywanie struktury drugorzędowej RNA z zadania 1. 
@@ -45,7 +45,7 @@ Za pomocą programu [RNAbows](http://rna.williams.edu/rnabows/) (*AllPairs*) wyk
 1. Ile wynosi minimalna swobodna energia dla tej struktury?
 2. Co odzwierciedla intensywność koloru łuków?
 3. Zapisz dowolny element struktury w formacie dot bracket. 
-4. Zapisz strukturę w formacie PDF i załącz do protokołu.
+4. Zapisz strukturę (plik PDF) i załącz do protokołu.
 
 ### Zadanie 6
 Zapisz przykładową sekwencję RNA, którą opisuje poniższa struktura drugorzędowa w formacie dot bracket:
@@ -54,14 +54,15 @@ Zapisz przykładową sekwencję RNA, którą opisuje poniższa struktura drugorz
 ((((.(((......)))...(((((...)))))..((((....))))))))
 ```
 
-Za pomocą programu `RNAfold` wykonaj przewidywanie struktury drugorzędowej RNA. 
+Za pomocą programu [RNAfold](http://rna.tbi.univie.ac.at//cgi-bin/RNAWebSuite/RNAfold.cgi) wykonaj przewidywanie jej struktury drugorzędowej. 
+
 1. Ile wynosi minimalna swobodna energia dla tej struktury?
 2. Czy przewidziana struktura jest zgodna ze strukturą zapisaną w formacie dot bracket?
-3. Zapisz strukturę w formacie PDF i załącz do protokołu. 
+3. Zapisz strukturę (plik PDF) i załącz do protokołu. 
 
 Za pomocą programu [RNAinverse](http://rna.tbi.univie.ac.at/cgi-bin/RNAWebSuite/RNAinverse.cgi) wyszukaj inną sekwencję, która może przyjąć strukturę drugorzędową zapisaną w formacie dot bracket. 
 
->Wskazówka: W sekcji `Fold algorithms and basic options` zaznacz opcję: `minimum free energy (MFE) only`
+>Wskazówka: W sekcji `Fold algorithms and basic options` zaznacz opcję `minimum free energy (MFE) only`
 
 4. Zapisz uzyskaną sekwencję.
 5. Ile wynosi minimalna swobodna energia dla tej struktury?
@@ -76,12 +77,14 @@ AGUGGUUCACAGGUAGCUCAGAUGGUUAGAGCAAAGGACUGUAAAUCCUUGUGUUAGUGGUUCGAUUCCACAACCACU
 GGGCAUUUGGUCUAGUGGUAUGAUUCUCGCUUAGGGUGCGAGAGGUCCCGAGUUCAAUUCUCGGAAUGCCCC
 ```
 
-Za pomocą programu `RNAfold` wykonaj przewidywanie struktury drugorzędowej obu sekwencji. Zwizualizuj obie struktury wykorzystując program [forna](http://rna.tbi.univie.ac.at/forna/).
+Za pomocą programu [RNAfold](http://rna.tbi.univie.ac.at//cgi-bin/RNAWebSuite/RNAfold.cgi) wykonaj przewidywanie struktury drugorzędowej obu sekwencji. 
+
+Zwizualizuj obie struktury wykorzystując program [forna](http://rna.tbi.univie.ac.at/forna/).
 
 >Wskazówka: `Add Molecule` -> `Add Sequence and Secondary Structure` -> wklej obie sekwencje wg wzoru -> `Submit`
  
 1. Czy struktury mają wspólne elementy?
-2. Zapisz struktury w formacie PNG i załącz do protokołu. 
+2. Zapisz struktury (plik PNG) i załącz do protokołu. 
 
 ### Zadanie 8
 W pliku [trna_szczur.fasta](./trna_szczur.fasta) znajdują się sekwencje tRNA szczura. Wykonaj przyrównanie tych sekwencji. 
@@ -89,8 +92,9 @@ W pliku [trna_szczur.fasta](./trna_szczur.fasta) znajdują się sekwencje tRNA s
 1. Jakiego programu użyłaś/eś? 
 2. Ile zasad nie jest zachowanych we wszystkich sekwencjach?
 
-Wykorzystując program [RNAalifold](http://rna.tbi.univie.ac.at//cgi-bin/RNAWebSuite/RNAalifold.cgi) wykonaj przewidywanie struktury drugorzędowej wszystkich sekwencji.
-3. Ile regionów sparowanych (stem) zostało przewidzianych?
+Wykorzystując program [RNAalifold](http://rna.tbi.univie.ac.at//cgi-bin/RNAWebSuite/RNAalifold.cgi) wykonaj przewidywanie struktury drugorzędowej.
+
+3. Ile regionów sparowanych (*stem*) zostało przewidzianych?
 4. Ile wynosi minimalna swobodna energia dla struktury?
 5. Czy wyniki są zgodne z wynikami przyrównania?
 6. Zapisz strukturę w formacie dot bracket i załącz do protokołu. 
@@ -106,7 +110,7 @@ acccgcgcacgcacacatgctgataacagccccgacccccggcgggagccaca
 1. Z jakiego organizmu pochodzi ta sekwencja? 
 2. Jakiego genu jest to fragment? Podaj pozycję startu i końca fragmentu w tym genie.
 3. Zapisz w formacie FASTA sekwencję białka, kodowanego przez ten gen, zamieszczając w nagłówku *Accession number* rekordu białkowego.
-4. Wykorzystując dowolny program (`RNAfold`, `mfold`, `RNAstructure`) wykonaj przewidywanie struktury drugorzędowej RNA dla tego fragmentu sekwencji. 
+4. Wykorzystując dowolny program (`RNAfold`, `mfold`, `RNAstructure`) wykonaj przewidywanie struktury drugorzędowej RNA. 
 5. Ile wynosi minimalna swobodna energia dla przewidzianej struktury? 
 
 ### Zadanie 10
