@@ -25,6 +25,7 @@ Bioinformatyka, rok I
 
 
 ### Kontakt
+test
 mgr inż. Agnieszka Rasińska (agnieszka.rasinska@amu.edu.pl)
 
 Zakład Biologii Obliczeniowej (1.97)
