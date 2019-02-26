@@ -11,17 +11,17 @@ Bioinformatyka, rok I
 | **02**	| 07.03.2019 | Formaty zapisu sekwencji  | [lab02](./lab02.md)  |
 | **03**	| 14.03.2019 | Przyrównanie sekwencji - Dotplot, Needle, Water | [lab03](./lab03.md) |
 | **04**	| 21.03.2019 | Wyszukiwanie sekwencji podobnych - BLAST | [lab04](./lab04.md) |
-| **05**	| 28.03.2019 | Dopasowanie wielu sekwencji (MSA) | [lab05](./lab05.md) |
+| **05**	| 28.03.2019 | Dopasowanie wielu sekwencji | [lab05](./lab05.md) |
 | **06**	| 04.04.2019 | Analiza filogenetyczna | [lab06](./lab06.md) |
-| **07**	| 11.04.2019 | Kolokwium 1 | - |
-| **08**	| 18.04.2019 | - | - |
-| **09**	| 25.04.2019 | - | - |
-| **10**	| 09.05.2019 | - | - |
-| **11**	| 16.05.2019 | - | - |
-| **12**	| 23.05.2019 | - | - |
-| **13**	| 30.05.2019 | - | - |
-| **14**	| 06.06.2019 | - | - |
-| **15**	| 13.06.2019 | - | - |
+| **07**	| 18.04.2019 | Kolokwium 1 | - |
+| **08**	| 25.04.2019 | Analizy genomowe (1) | [lab08](./lab08.md) |
+| **09**	| 09.05.2019 | Analizy genomowe (2) | [lab09](./lab09.md) |
+| **10**	| 16.05.2019 | Wprowadzenie do Galaxy | [lab10](./lab10.md) |
+| **11**	| 23.05.2019 | Analiza strukturalna RNA | [lab11](./lab11.md) |
+| **12**	| 30.05.2019 | Adnotacja funkcjonalna sekwencji | [lab12](./lab12.md) |
+| **13**	| 06.06.2019 | - | [lab13](./lab13.md) |
+| **14**	| 13.06.2019 | Kolokwium 2 | - |
+
 
 
 ### Kontakt
