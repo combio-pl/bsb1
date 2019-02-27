@@ -7,7 +7,7 @@ Bioinformatyka, rok I
 
 | Lab | Data | Opis | Zadania |
 | :---: | --- | --- | :---: |
-| **01** 	| 28.02.2019 | Bazy danych | [lab01](./lab01.md) |
+| **01** 	| 28.02.2019 | Bazy danych | [lab01](https://goo.gl/forms/jrEKX7TCPo3jLiAb2)|
 | **02**	| 07.03.2019 | Formaty zapisu sekwencji  | [lab02](./lab02.md)  |
 | **03**	| 14.03.2019 | Przyrównanie sekwencji - Dotplot, Needle, Water | [lab03](./lab03.md) |
 | **04**	| 21.03.2019 | Wyszukiwanie sekwencji podobnych - BLAST | [lab04](./lab04.md) |
