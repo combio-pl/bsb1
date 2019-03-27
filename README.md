@@ -19,8 +19,7 @@ Bioinformatyka, rok I
 | **10**	| 16.05.2019 | Wprowadzenie do Galaxy | lab10 |
 | **11**	| 23.05.2019 | Analiza strukturalna RNA | lab11 |
 | **12**	| 30.05.2019 | Adnotacja funkcjonalna sekwencji | lab12 |
-| **13**	| 06.06.2019 | - | lab13 |
-| **14**	| 13.06.2019 | Kolokwium 2 | - |
+| **13**	| 06.06.2019 | Kolokwium 2 | - |
 
 
 
