@@ -13,12 +13,12 @@ Bioinformatyka, rok I
 | **04**	| 21.03.2019 | Wyszukiwanie sekwencji podobnych - BLAST | [lab04](https://goo.gl/forms/MVyyU0ztvFfdmJyu1)|
 | **05**	| 28.03.2019 | Przyrównanie wielu sekwencji | [lab05](https://forms.gle/wZz6X7rrYgU7WDGw6)|
 | **06**	| 04.04.2019 | Kolokwium 1 | - |
-| **07**	| 18.04.2019 | - | - |
-| **08**	| 25.04.2019 | - | - |
-| **09**	| 09.05.2019 | - | - |
-| **10**	| 16.05.2019 | - | - |
-| **11**	| 23.05.2019 | - | - |
-| **12**	| 30.05.2019 | - | - |
+| **07**	| 18.04.2019 | Analiza filogenetyczna | lab06 |
+| **08**	| 25.04.2019 | Analizy genomowe (1) | lab07 |
+| **09**	| 09.05.2019 | Analizy genomowe (2) | lab08 |
+| **10**	| 16.05.2019 | Wprowadzenie do Galaxy | lab09 |
+| **11**	| 23.05.2019 | Analiza strukturalna RNA | lab10 |
+| **12**	| 30.05.2019 | Adnotacja funkcjonalna sekwencji | lab11 |
 | **13**	| 06.06.2019 | Kolokwium 2 | - |
 
 
