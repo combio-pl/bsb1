@@ -13,7 +13,7 @@ Bioinformatyka, rok I
 | 21.03.2019 | Wyszukiwanie sekwencji podobnych - BLAST | [lab04](https://goo.gl/forms/MVyyU0ztvFfdmJyu1)|
 | 28.03.2019 | Przyrównanie wielu sekwencji | [lab05](https://forms.gle/wZz6X7rrYgU7WDGw6)|
 | 04.04.2019 | Kolokwium 1 | - |
-| 18.04.2019 | Filogenetyka | [lab06](https://forms.gle/Xz44gcBsTccRz2KLA) |
+| 18.04.2019 | Filogenetyka | [lab06](https://forms.gle/wqU9BxNdfP3wRRbx7) |
 | 25.04.2019 | Analizy genomowe (1) | lab07 |
 | 09.05.2019 | Analizy genomowe (2) | lab08 |
 | 16.05.2019 | Wprowadzenie do Galaxy | lab09 |
