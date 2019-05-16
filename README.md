@@ -16,7 +16,7 @@ Bioinformatyka, rok I
 | 18.04.2019 | Filogenetyka | [lab06](https://forms.gle/wqU9BxNdfP3wRRbx7) |
 | 25.04.2019 | Analizy genomowe (1) | [lab07](https://forms.gle/N9Km68udd6ChhhVZ8) |
 | 09.05.2019 | Analizy genomowe (2) | [lab08](https://forms.gle/XWyS3d8L6yZ8ZEry6)  ([korekta](./korekta_lab08.md)) |
-| 16.05.2019 | Wprowadzenie do Galaxy | lab09 |
+| 16.05.2019 | Wprowadzenie do Galaxy | [lab09](https://forms.gle/tnJ1Z3bDybNeNqg86) |
 | 23.05.2019 | Analiza strukturalna RNA | lab10 |
 | 30.05.2019 | Adnotacja funkcjonalna sekwencji | lab11 |
 | 06.06.2019 | Kolokwium 2 | - |
